@@ -211,12 +211,16 @@ ol {
 }
 
 dl dt {
+  font-size: 16pt;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 dl dd {
   padding-left: 20px;
   font-style: italic;
+  border-bottom: 1px #333 dotted;
+  padding-bottom: 10px;
 }
 
 dl p {
@@ -300,14 +304,14 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -366,7 +370,22 @@ Full-Width Styles
   background: #212121;
 }
 
-
+/*********
+Added by John
+*********/
+.place_time {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom:10px;
+  text-indent: 20px;
+  font-size: 10pt;
+}
+.lang {
+  display: block;
+  font-style:italic;
+  font-size: 9pt;
+}
 
 /*******************************************************************************
 Small Device Styles
